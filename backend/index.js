@@ -32,7 +32,7 @@ let notes = [
 ]
 
 app.get('/', (request, response) => {
-    response.send('<h1>Hi Kofi<h1/>')
+    response.send('<h1>Hi Kofi Abalo<h1/>')
 })
 
 app.get('/api/notes', (request, response) => {
